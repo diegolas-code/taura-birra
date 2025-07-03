@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAURA BIRRA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body id="inicio">
+
+    <div id="age-check" class="age">
+        <div class="card card-splash text-center">
+            <h2>¿Sos mayor de 18 años?</h2>
+
+            <p>Prohibida la venta y la publicidad de bebidas alcohólicas digiridas a menores de 18 años <a
+                    href="https://www.argentina.gob.ar/normativa/nacional/ley-24788-42480/texto" target="_blank">(Ley
+                    24.788)</a></p>
+            <div style="margin-top: 1em;">
+                <button class="btn-brn" id="yes-btn" style="margin-right: 1em; padding: 0.5em 1.5em;">Sí</button>
+                <button class="btn-brn" id="no-btn" style="padding: 0.5em 1.5em;">No</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cervezas">Nuestras cervezas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bar">Bar de Fábrica</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-xxl">
+        <div class="mx-auto w-100 w-lg-75 w-xxl-50">
+            <header>
+                <h1>
+                    <span class="nombre">Taura</span>
+                    <span class="subtitulo">Cerveza Artesanal</span>
+                </h1>
+            </header>
+
+            <main>
+                <section class="invert">
+                    <h2 class="text-center" id="nosotros">Sobre Nosotros</h2>
+
+                    <h3>Desde La Plata, elaboramos cerveza artesanal con identidad</h3>
+
+                    <p>Nacimos en el histórico barrio El Mondongo, y desde 2011 nos dedicamos a crear cervezas que
+                        reflejan nuestro esfuerzo y pasión por el oficio.</p>
+
+                    <p>Cuidamos cada etapa del proceso: desde el diseño de las recetas hasta la cocción y la
+                        fermentación, combinando técnica, paciencia y buenos ingredientes. Cada estilo que producimos es
+                        el resultado de una búsqueda constante por la calidad, con atención a los detalles y respeto por
+                        los tiempos que exige una buena cerveza.</p>
+
+                    <p>Brindamos con lo que somos: dedicación hecha sabor.</p>
+                    <div class="separador-d"></div>
+                </section>
+
+                <section>
+                    <h2 class="text-center" id="cervezas">Nuestras Cervezas</h2>
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-4 mb-3 biras">
+                                <div class="card card-bira text-bg-dark tarjets mb-3">
+                                    <img src="./img/cerveza-dorada-pampeana.png" class="card-img"
+                                        alt="Cerveza Dorada Pampeana">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h3 class="card-title">Dorada Pampeana</h3>
+                                        <p class="card-text mt-auto">Cerveza rubia, clara y brillante. De bajo amargor,
+                                            con aroma dulce proveniente de la malta, leve presencia de lúpulo y un toque
+                                            frutado. Suave, ligera y muy fácil de tomar.
+                                        </p>
+                                        <p class="card-text"><strong>Medalla de Bronce</strong><br>Copa 3 Ciudades
+                                            (Marzo 2021)<br>Copa Platense de Cervezas Artesanales (Diciembre 2021)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4 mb-3 biras">
+                                <div class="card card-bira text-bg-dark tarjets mb-3">
+                                    <img src="./img/cerveza-ginger-ale.png" class="card-img" alt="Cerveza Ginger Ale">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h3 class="card-title">Ginger Ale</h3>
+                                        <p class="card-text mt-auto">Rubia de bajo amargor con agregado de jengibre
+                                            fresco. Predominan las notas cítricas y el sabor
+                                            característico del jengibre. Refrescante y distinta.
+                                        </p>
+                                        <p class="card-text"><strong>Medalla de Oro</strong><br>Copa La Pola Dorada
+                                            (Medellín, Octubre 2024)</p>
+                                        <p class="card-text"><strong>Medalla de Bronce</strong><br>Copa Austral (Mayo
+                                            2024)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4 mb-3 biras">
+                                <div class="card card-bira text-bg-dark tarjets mb-3">
+                                    <img src="./img/cerveza-ipa.png" class="card-img" alt="Cerveza India Pale Ale">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h3 class="card-title">IPA (Indian Pale Ale)</h3>
+                                        <p class="card-text mt-auto">Cerveza ámbar con alto amargor. Fuerte presencia de
+                                            lúpulo con aromas cítricos y resinosos.
+                                            Intensa y aromática.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-4 mb-3 biras">
+                                <div class="card card-bira text-bg-dark tarjets mb-3">
+                                    <img src="./img/cerveza-ira.png" class="card-img" alt="Cerveza Irish Red Ale">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h3 class="card-title">IRA (Irish Red Ale)</h3>
+                                        <p class="card-text mt-auto">Es una cerveza dulce, con marcado sabor a maltas
+                                            tostadas y caramelo. De color rojizo intenso, en
+                                            el que destaca un sabor intenso de la malta y un aroma frutado.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4 mb-3 biras">
+                                <div class="card card-bira text-bg-dark tarjets mb-3">
+                                    <img src="./img/cerveza-stout.png" class="card-img" alt="Cerveza Stout">
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <h3 class="card-title">Stout</h3>
+                                        <p class="card-text mt-auto">Cerveza de color oscuro, con amargor medio y una
+                                            textura suave en boca. Presenta notas de café y
+                                            cacao, logrando un perfil intenso pero fácil de disfrutar.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <table class="tablap">
+                        <thead>
+                            <tr>
+                                <th>Estilo</th>
+                                <th></th>
+                                <th>ABV (Grad. alcohol)</th>
+                                <th>IBU (Amargor)</th>
+                                <th>Color</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dorada Pampeana</td>
+                                <td>🥉🥉</td>
+                                <td>5%</td>
+                                <td>18</td>
+                                <td><span class="burbuja dp"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Ginger Ale</td>
+                                <td>🥇🥉</td>
+                                <td>5%</td>
+                                <td>18</td>
+                                <td><span class="burbuja ga"></span></td>
+                            </tr>
+                            <tr>
+                                <td>IPA</td>
+                                <td></td>
+                                <td>6.5%</td>
+                                <td>35</td>
+                                <td><span class="burbuja ipa"></span></td>
+                            </tr>
+                            <tr>
+                                <td>IRA</td>
+                                <td></td>
+                                <td>5.6%</td>
+                                <td>15</td>
+                                <td><span class="burbuja ira"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Stout</td>
+                                <td></td>
+                                <td>5.7%</td>
+                                <td>25</td>
+                                <td><span class="burbuja stt"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="separador"></div>
+
+                </section>
+
+                <section class="bar-section">
+                    <h2 id="bar">Bar de Fábrica</h2>
+
+                    <p>Los sábados, de 20:30 a 02:00, abrimos las puertas de nuestro Bar de Fábrica para que disfrutes
+                        una experiencia cervecera auténtica. Podés venir a probar todos nuestros estilos clásicos, junto
+                        con algunos experimentos exclusivos y sorpresas que solo servimos en el bar. Todo acompañado de
+                        comida casera hecha al momento, con opciones para todos los gustos, en un ambiente relajado,
+                        cálido y rodeado de buena música y buena gente.<br><br><small>(Solo con reserva previa)</small>
+                    </p>
+                </section>
+
+            </main>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.575003883889!2d-57.921068!3d-34.9171135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e71f7b54b003%3A0xb15812f04f7b53a8!2sTaura%20Cerveza%20Artesanal!5e0!3m2!1ses!2sar!4v1750690888920!5m2!1ses!2sar"
+                width="100%" height="450" style="border:0; min-height: 540px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-xxl">
+            <h2 class="text-center" id="contacto">Contacto</h2>
+            <div class="mx-auto mt-5 w-100 w-lg-75 w-xxl-50">
+                <div class="row g-4 align-items-start futi">
+
+                    <div class="col-12 col-lg-6">
+                        <ul>
+                            <li>Calle 68 y 119, La Plata (Buenos Aires, Argentina)</li>
+                            <li>+54 9 221 552 1152</li>
+                            <li>cervezataura@gmail.com</li>
+                        </ul>
+                        <h3>Nuestras redes</h3>
+                        <ul class="redes">
+                            <li><img src="./img/social-fb.svg" alt="Icono Facebook" class="icono"><a
+                                    href="https://www.facebook.com/tauracerveza">/tauracerveza</a></li>
+                            <li><img src="./img/social-ig.svg" alt="Icono Instagram" class="icono"><a
+                                    href="https://www.instagram.com/cervezataura">/cervezataura</a></li>
+                        </ul>
+                        <div class="separador-d"></div>
+                    </div>
+
+
+                    <div class="col-12 col-lg-6">
+                        <h3>Dejanos tu mensaje</h3>
+
+                        <form action="https://formspree.io/f/xvgrvbpz" method="POST">
+                            <label>
+                                Tu correo electrónico:
+                                <input type="email" class="flat-input" name="email">
+                            </label>
+                            <label>
+                                Tu mensaje:
+                                <textarea name="message" class="flat-input"></textarea>
+                            </label>
+                            <button class="btn btn-brn" type="submit">Enviar mensaje</button>
+                        </form>
+                    </div>
+
+                    <div class="text-center mt-4 firma">Desarrollado por Diegolas Web Studios © 2025</div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/nav-collapse.js"></script>
+
+    <script src="./js/age-check.js"></script>
+
+
+</body>
+
+</html>
