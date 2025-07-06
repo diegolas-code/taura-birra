@@ -20,6 +20,7 @@ body {
   font-size: 0.9em;
   letter-spacing: 0.05em;
   margin-bottom: 0;
+  
 }
 
 p {
@@ -226,7 +227,7 @@ main {
 }
 
 section {
-  padding: 2em 6em 2em 6em;
+  padding: 2em 5em 2em 5em;
 }
 
 
@@ -305,8 +306,8 @@ footer {
 }
 
 .futi {
-  padding-left: 6em;
-  padding-right: 6em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 footer h3 {
@@ -588,4 +589,10 @@ iframe:hover {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
+}
+
+.row.futi {
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: clip;
 }
