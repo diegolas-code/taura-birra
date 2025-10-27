@@ -1,4 +1,5 @@
 import BeerCard from './BeerCard';
+import { images } from '../../utils/imageConfig';
 import './BeerList.css';
 
 const BeerList = () => {
@@ -8,8 +9,8 @@ const BeerList = () => {
             id: 1,
             name: 'IPA Taura',
             type: 'India Pale Ale',
-            description: 'Cerveza con intenso amargor y aroma a lúpulo',
-            image: '../../assets/images/taura-ipa.jpg',
+            description: 'Cerveza con intenso amargor y aroma a lúpulo. Notas cítricas y florales que explotan en cada sorbo.',
+            image: images.beers.ipa,
             abv: 6.5,
             ibu: 65
         },
@@ -17,12 +18,47 @@ const BeerList = () => {
             id: 2,
             name: 'Stout Imperial',
             type: 'Imperial Stout',
-            description: 'Cerveza negra con notas a café y chocolate',
-            image: '../../images/taura-stout.jpg',
+            description: 'Cerveza negra con notas a café y chocolate. Cuerpo robusto y final dulce.',
+            image: images.beers.stout,
             abv: 9.0,
             ibu: 45
+        },
+        {
+            id: 3,
+            name: 'Pale Ale',
+            type: 'American Pale Ale',
+            description: 'Balance perfecto entre malta y lúpulo. Refrescante y aromática.',
+            image: images.beers.pale,
+            abv: 5.5,
+            ibu: 40
+        },
+        {
+            id: 4,
+            name: 'Porter Ahumada',
+            type: 'Smoked Porter',
+            description: 'Cerveza oscura con toques ahumados y maltas tostadas.',
+            image: images.beers.porter,
+            abv: 6.0,
+            ibu: 35
+        },
+        {
+            id: 5,
+            name: 'Golden Lager',
+            type: 'Premium Lager',
+            description: 'Cerveza dorada, suave y refrescante. Perfecta para cualquier momento.',
+            image: images.beers.lager,
+            abv: 4.8,
+            ibu: 20
+        },
+        {
+            id: 6,
+            name: 'Wheat Beer',
+            type: 'Hefeweizen',
+            description: 'Cerveza de trigo con notas de banana y clavo de olor.',
+            image: images.beers.wheat,
+            abv: 5.2,
+            ibu: 15
         }
-        // Agregar más cervezas según tu sitio original
     ];
 
     return (

@@ -1,3 +1,4 @@
+import { images } from '../../utils/imageConfig';
 import './Bar.css';
 
 const Bar = () => {
@@ -59,42 +60,39 @@ const Bar = () => {
                 </p>
 
                 <div className="bar__content">
-                    {/* Galería de imágenes */}
                     <div className="bar__gallery">
                         <div className="bar__gallery-main">
                             <img
-                                src="/images/bar/interior-principal.jpg"
+                                src={images.bar.main}
                                 alt="Interior principal del bar Taura Birra con mesas y barra"
                                 loading="lazy"
                             />
                         </div>
                         <div className="bar__gallery-grid">
                             <img
-                                src="/images/bar/choperas.jpg"
+                                src={images.bar.choperas}
                                 alt="Sistema de choperas con nuestras cervezas tiradas"
                                 loading="lazy"
                             />
                             <img
-                                src="/images/bar/terraza.jpg"
+                                src={images.bar.terraza}
                                 alt="Terraza del bar con mesas al aire libre"
                                 loading="lazy"
                             />
                             <img
-                                src="/images/bar/evento.jpg"
+                                src={images.bar.evento}
                                 alt="Evento de música en vivo en el bar"
                                 loading="lazy"
                             />
                             <img
-                                src="/images/bar/comida.jpg"
+                                src={images.bar.comida}
                                 alt="Platos de comida para maridar con cerveza"
                                 loading="lazy"
                             />
                         </div>
                     </div>
 
-                    {/* Información del bar */}
                     <div className="bar__info">
-                        {/* Horarios */}
                         <div className="bar__info-section">
                             <h3 className="bar__info-title">
                                 <span aria-hidden="true">🕐</span>
@@ -110,7 +108,6 @@ const Bar = () => {
                             </ul>
                         </div>
 
-                        {/* Servicios */}
                         <div className="bar__info-section">
                             <h3 className="bar__info-title">
                                 <span aria-hidden="true">✨</span>
@@ -133,7 +130,6 @@ const Bar = () => {
                             </div>
                         </div>
 
-                        {/* Ubicación */}
                         <div className="bar__info-section">
                             <h3 className="bar__info-title">
                                 <span aria-hidden="true">📍</span>
